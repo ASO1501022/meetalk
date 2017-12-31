@@ -1,0 +1,69 @@
+@charset "UTF-8";
+#search_wrap{
+    margin-top: 20px;
+    text-align: center;
+}
+#search_inner{
+    all:initial;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 0;
+}
+#search_tab input[type="radio"]:checked + label{
+    background: #CC9966;
+    color: white;
+}
+.tab:last-child{
+    border-right: solid 1px #CC9966;
+}
+#search_tab{
+    line-height: 0px;
+}
+.search_radio{
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: none;
+}
+
+.search_box_wrap{
+    height: 30px;
+	box-sizing: border-box;
+}
+.search_box_wrap input[type="search"]{
+    height: 100%;
+    width: 400px;
+    vertical-align: top;
+    border: solid 1px #CC9966;
+}
+.search_btn{
+    height: 100%;
+    background: #CC9966;
+    width: 30px;
+    cursor: pointer;
+}
+.search_btn img{
+    all:initial;
+    height: 100%;
+    background: #CC9966;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+#sort_wrap{
+    display: flex;
+    display: -webkit-flex;
+}
+#city{
+    width: 140px;
+}
+#prefecture ,#city{
+    margin-left: 5px;
+}
+#sort{
+    margin-left: auto;
+    width: 140px;
+}

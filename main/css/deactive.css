@@ -1,0 +1,28 @@
+@charset "UTF-8";
+#main_center_title{
+    margin-bottom: 30px;
+}
+.main_center p{
+    font-size: 18px;
+    color: #8D5F31;
+}
+.button{
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-size: initial;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin:  0 5px;
+    margin-top: 10px;
+}
+.deactive_btn{
+    background: #E98585;
+}
+.top_btn{
+    background: #85E990;
+}
+.top_btn:hover{
+    opacity: 0.7;
+}

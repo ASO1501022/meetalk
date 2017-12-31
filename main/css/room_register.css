@@ -1,0 +1,102 @@
+@charset "UTF-8";
+#room_title_input{
+    width: initial;
+    height: initial;
+    border: initial;
+    background: initial;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#room_title{
+    font-size: 20px;
+    color: #8D5F31;
+    width: 110px;
+}
+#room_title_input input{
+    width: 100%;
+    font-size: 20px;
+    height: initial;
+    border: solid 2px #8D5F31;
+    background: white;
+}
+#info_tag_wrap{
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+#info_tag_inner{
+    width: 70%;
+}
+#add_tag_wrap{
+    align-self: flex-end;
+    display: flex;
+    display: -webkit-flex;
+    flex: 1;
+    border-radius: 0 10px;
+}
+#join input ,#budget input{
+    background: white;
+    padding: 2px 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: baseline;
+    border: solid 1px #CC9966;
+    width: 70px;
+}
+#add_tag_wrap input{
+    font-size: 20px;
+    width: 150px;
+    background: white;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    border: solid 1px #CC9966;
+}
+#add_tag_btn{
+    width:100%;
+    color: white;
+    cursor: pointer;
+    background: #CC9966;
+}
+#add_tag_btn:active{
+    opacity: 0.6;
+}
+#budget p ,#join p,#auto p{
+    display: inline-block;
+    vertical-align: baseline;
+}
+#budget_unit ,#join_unit{
+    margin-left: 5px;
+    display: inline-block;
+}
+#item_info_content_explain{
+    height: 600px;
+    padding: 0;
+}
+#item_info_content_explain{
+    border: none;
+}
+#item_info_content_explain textarea{
+    width: 100%;
+    height: 100%;
+    background: white;
+    resize: none;
+    border: solid 1px #CC9966;
+}
+#dead_line_wrap select{
+    width: 70px;
+    height: 25px;
+    background: white;
+	background-image: url(../img/brown_select.png);
+    background-position: right;
+    background-repeat: no-repeat;
+	background-size: 25px;
+    border: solid 1px #CC9966;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#dead_line_wrap select,#dead_line_wrap p{
+    display: inline-block;
+}

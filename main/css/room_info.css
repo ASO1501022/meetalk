@@ -1,0 +1,59 @@
+@charset "UTF-8";
+#info_tag_wrap{
+    width: 100%;
+}
+
+#main_center_title{
+    flex: 1;
+}
+#main_center_title{
+    border: none;
+    padding: 15px 0 0 5px;
+}
+#main_center_title_wrap{
+    border-bottom: dashed 2px #8D5F31;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: initial;
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+#item_info_btn{
+    background: white;
+    color: #CC9966;
+    border: solid 2px #CC9966;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+#item_info_btn:hover{
+    background: #CC9966;
+    color: white;
+    border: solid 2px #cc9966;
+    opacity: 1;
+}
+#contents_flex_wrap{
+    display: flex;
+    display: -webkit-flex;
+}
+.room_member{
+    background: #FFC86A;
+}
+.room_invite{
+    background: #85E990;
+}
+.room_chat{
+    background: #91BDF2;
+}
+.room_break{
+    background: #E98585;
+}
+.room_no{
+    background: #D7D7D7;
+    cursor: none;
+}
+.room_no:hover{
+    cursor: auto;
+    opacity: 1;
+}

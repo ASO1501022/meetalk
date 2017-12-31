@@ -1,0 +1,118 @@
+.wrap-contents {
+    width: 95%;
+    margin: 0 auto;
+}
+.wrap-search-form {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #cc9966;
+    margin-top: 5px;
+    border: 0;
+}
+.inner-search-form {
+    display: flex;
+    font-size: 0;
+    align-items: center;
+    margin: 0 5px;
+}
+.inner-search-form input[type="search"] {
+    flex: 1;
+    background-color: #fff;
+    height:30px;
+    margin: 0;
+    border-radius: 0; 
+}
+.inner-search-form input[type="submit"] {
+    margin-left: auto;
+    border: 0;
+}
+#button-image {
+    width: 45px;
+    height: 45px;
+}
+.title-search-result {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-bottom: dotted 2px #e2b889;
+    color: #cc9966;
+    font-size: 1.4rem;
+}
+.member {
+    background-color: #fff5da;
+    display: flex;
+    padding: 5px 0 5px 5px;
+    align-items: center;
+    margin-top: 2px;
+}
+.member:nth-child(odd) {
+    border-left: 8px solid #cc9966;
+}
+.member:nth-child(even) {
+    border-left: 8px solid #fff5a9;
+}
+
+.member img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;/* トリミングしたい枠の幅 */
+    height: 50px;/* トリミングしたい枠の高さ */
+    margin-right: 5px;
+}
+.member p {
+    color: #cc9966;
+    
+}
+.member p:last-child {
+    color: #ebb988;
+    font-size: 0.8rem;
+}
+.control-button {
+    margin-left: auto;
+    margin-right: 5px;
+    font-size: 0;
+}
+.member button.apply {
+    margin-left: 5px;
+    width: 18vw;
+    padding: 5px 0;
+    background-color: #85e990; 
+    color: #fff;
+    font-size: 0.8rem;
+}
+.member button.regist {
+    margin-left: 5px;
+    width: 18vw;
+    padding: 5px 0;
+    background-color: #e98585; 
+    color: #fff;
+    font-size: 0.8rem;
+}
+.wrap-page-number ul {
+    width: 70%;
+    margin: 0 auto 5vw auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap-page-number ul li {
+    width: 8vw;
+    height: 8vw;
+    line-height: 8vw;
+    text-align: center;
+}
+.wrap-page-number ul li a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+#num-selected {
+    background-color: #8d5f31;
+}
+#num {
+    background-color: #e2b889;
+}

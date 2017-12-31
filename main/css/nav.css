@@ -1,0 +1,70 @@
+@charset "UTF-8";
+nav{
+    width: 100%;
+    background: #CC9966;
+    text-align: center;
+    position: relative;
+    font-size: 0;
+    position: relative;
+}
+#header_logo{
+    color: white;
+    font-size: 50px;
+    font-family: 'Capriola', sans-serif;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+nav li{
+    display: inline-block;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+nav li img{
+    height: 40px;
+    margin: 0 auto;
+}
+nav li div{
+    color:white;
+    margin-top: 5px;
+    font-size: 12px;
+}
+nav li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 10;
+}
+nav li:hover{
+    background: #e0ac78;
+}
+nav #logout{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#notification_wrap{
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: -5px;
+    right: -7px;
+}
+nav #friend_wrap{
+    position: relative;
+}
+#notification_wrap img{
+    height: 100%;
+    width: 100%;
+}
+#notification_num{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: white;
+}

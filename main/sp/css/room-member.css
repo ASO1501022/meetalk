@@ -1,0 +1,182 @@
+.wrap-contents {
+    width: 95%;
+    margin: 0 auto;
+}
+.title {
+    margin-top: 5px;
+    border-bottom: dotted 2px #e2b889;
+
+}
+.title p {
+    color: #cc9966;
+    font-size: 1.4rem;
+}
+.tab{
+    /*overflow:hidden;*/
+    display: flex;
+    margin-top: 10px;
+}
+.tab li{
+    flex: 1;
+    background:#fff;
+    color: #cc9966;
+    padding:5px;
+    text-align: center;
+    list-style: none;
+    border: 1px solid #cc9966;
+    position: relative;
+}
+.tab .select{
+    background:#cc9966;
+    color: #fff;
+}
+.content li{
+    background:#eee;
+    list-style: none;
+}
+.hide {
+    display:none;
+}
+.notification {
+    width: 30px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.notification-num {
+    position: absolute;
+    top: -2px;
+    right: 6px;
+    color: white;
+    font-size: 0.7rem;
+}
+.member {
+    background-color: #fff5da;
+    display: flex;
+    padding: 5px 0 5px 5px;
+    align-items: center;
+    margin-top: 2px;
+}
+.member:nth-child(odd) {
+    border-left: 8px solid #cc9966;
+}
+.member:nth-child(even) {
+    border-left: 8px solid #fff5a9;
+}
+
+.member img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;/* トリミングしたい枠の幅 */
+    height: 50px;/* トリミングしたい枠の高さ */
+    margin-right: 5px;
+}
+.member p {
+    color: #cc9966;
+}
+.member p:last-child {
+    color: #ebb988;
+    font-size: 0.8rem;
+}
+.member form {
+    margin-left: auto;
+    margin-right: 5px;
+    font-size: 0;
+}
+.member button.apply {
+    margin-left: 5px;
+    width: 18vw;
+    padding: 5px 0;
+    background-color: #85e990; 
+    color: #fff;
+    font-size: 0.8rem;
+}
+.member button.regist {
+    margin-left: 5px;
+    width: 18vw;
+    padding: 5px 0;
+    background-color: #e98585; 
+    color: #fff;
+    font-size: 0.8rem;
+}
+/*----iPad Pro----*/
+/* Portrait */
+@media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+    .notification {
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+    .notification-num {
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+/* Landscape */
+@media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+    .notification {
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+    .notification-num {
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+/*----iPad----*/
+/* Portrait */
+
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait) {
+    .notification {
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+    .notification-num {
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+/* Landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape) {
+    .notification {
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+    .notification-num {
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}

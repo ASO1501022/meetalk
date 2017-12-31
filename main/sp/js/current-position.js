@@ -1,0 +1,9 @@
+$(function(){
+    $('.get-location').click(function(){
+        navigator.geolocation.watchPosition(
+            function(position){
+                alert(position.coords.latitude);
+            }
+        );
+    });
+});

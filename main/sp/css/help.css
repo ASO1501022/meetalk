@@ -1,0 +1,32 @@
+.wrap-contents {
+    width: 95%;
+    margin: 0 auto;
+}
+.title-help {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: dotted 2px #e2b889;
+    color: #cc9966;
+    font-size: 1.2rem;
+}
+a {
+    text-decoration: none;
+    color: #76aced;
+}
+
+.contents-help {
+    margin-top: 5px;
+}
+.line-help {
+    padding: 5px 3px;
+}
+.line-help:nth-child(odd) {
+    border-left: 8px #cc9966 solid;
+    /*border-bottom: 1px #cc9966 solid;*/
+}
+.line-help:nth-child(even) {
+    border-left: 8px #fff5a9 solid;
+    /*border-bottom: 1px #fff5a9 solid;*/
+}

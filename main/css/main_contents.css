@@ -1,0 +1,103 @@
+@charset "UTF-8";
+.list_img_wrap{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.list_wrap{
+    font-size: 0;
+    display: inline-block;
+    text-align: initial;
+    margin-top: 10px;
+}
+.list_img_wrap .list_img_shadow{
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    background: url(../img/shadow.png) no-repeat;
+    background-size: contain;
+    height: 12px;
+}
+.list_img_inner{
+    max-width: 180px;
+    height: 100px;
+    background: #CC9966;
+    padding: 0;
+    margin: 0;
+}
+.list_img_wrap .list_img_inner .list_img{
+    height: 100px;
+    width: 100%;
+    border-left: solid 10px #CC9966;
+}
+.list_content{
+    width: 500px;
+    height: 100px;
+    background: white;
+    display: inline-block;
+    font-size: initial;
+    border-bottom: solid 1px #DDD;
+    vertical-align: bottom;
+    position: relative;
+}
+.list_content p{
+    color: #918f8f;
+}
+.list_title ,.list_member ,.list_dead_line ,.list_budget ,.list_restaurant_explian{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.list_title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.list_restaurant_explian{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list_member ,.list_dead_line,.list_budget,.list_restaurant_explian{
+    font-size: 13px;
+}
+.list_tag_wrap{
+    border-bottom: solid 1px #CC9966;
+    background: #fff39c;
+    border-left: solid 10px #CC9966;
+    width: 680px;
+    height: 34px;
+    overflow: hidden;
+}
+#page_num_wrap{
+    justify-content: space-around;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.page_num{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #EABE94;
+    color: white;
+}
+.page_num a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+}
+.page_num a:hover{
+    background: #CC9966;
+}
+.page_selected{
+    background: #CC9966;
+}
+footer{
+    text-align: right;
+}

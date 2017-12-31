@@ -1,0 +1,16 @@
+body {
+    position: relative;
+}
+.wrap-contents {
+}
+#ad-footer {
+    padding-bottom : 0;
+    margin-bottom: 0;
+    z-index: 1000;
+}
+#ad-footer img {
+    width: 100vw;
+    height: auto;
+    padding-bottom : 0;
+    margin-bottom: 0;
+}

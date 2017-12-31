@@ -1,0 +1,115 @@
+@charset "UTF-8";
+#main_center_inner{
+    margin-top: 30px;
+    text-align: initial;
+}
+#preview_img{
+    width: 130px;
+    height: 160px;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    vertical-align: bottom;
+    border: solid 1px #DDD;
+    cursor: pointer;
+}
+#preview_img_input{
+    display:none;
+}
+#l_preview_img_input{
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: #8D5F31;
+    color: white;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#l_preview_img_input:hover{
+    opacity: 0.7;
+}
+#explain_title{
+    text-align: left;
+    font-size: initial;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#explian_wrap{
+    width: 100%;
+    height: auto;
+    text-align: initial;
+}
+#explian{
+    width: 100%;
+    border: solid 1px #CC9966;
+    padding: 5px;
+    margin-top: 5px;
+    height: 200px;
+}
+#add_tag_wrap{
+    align-self: flex-end;
+    display: flex;
+    display: -webkit-flex;
+    border-radius: 0 10px;
+    margin-left: auto;
+    flex: initial;
+}
+#add_tag_wrap input{
+    font-size: 20px;
+    width: 150px;
+    background: white;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    border: solid 1px #CC9966;
+}
+#add_tag_btn{
+    width:100px;
+    color: white;
+    cursor: pointer;
+    background: #CC9966;
+}
+#add_tag_btn:active{
+    opacity: 0.6;
+}
+#user_name_input{
+    border: solid 2px #8D5F31;
+    background: white;
+    display: inline-block;
+    border-radius: 5px;
+    vertical-align: bottom;
+    font-size: 16px;
+}
+.flex_box{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+p span{
+    color: #8D5F31;
+    font-size: 18px;
+}
+#user_name{
+    text-align: left;
+    margin-bottom: 10px;
+}
+#contact_title{
+    border: solid 2px #8D5F31;
+    background: white;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+}
+#main_center_title{
+    margin-bottom: 20px;
+}
+#img_explain span{
+    font-weight: bold;
+
+    font-size: 14px;
+}

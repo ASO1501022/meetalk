@@ -1,0 +1,142 @@
+body {
+    font-size: 1.0rem;
+    font-family: HiraKakuProN-W3,"ヒラギノ角ゴ ProN W3",Helvetica,sans-serif;
+    color: #3a3a3a;
+    width: 100%;
+    height: 120%;
+    min-width: 320px;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    background-color: #fff5da;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    color: #cc9966;
+}
+.name {
+    font-family: 'Capriola', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #cc9966;
+    margin-top: 10px;
+}
+.register-form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.register-form input[type="text"], .register-form button[type="submit"],.register-form input[type="email"],.register-form input[type="password"], .register-form p ,.prefecture {
+    width: 100%;
+    margin: 0 auto;
+}
+.register-form input[type="text"], .register-form button[type="submit"],.register-form input[type="email"],.register-form input[type="password"] {
+    border: 1px solid #cc9966;
+    padding: 0;
+    height: 30px;
+}
+.register-form input[type="text"],.register-form input[type="email"],.register-form input[type="password"] {
+    background-color: #fff;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.register-form p {
+    color: #cc9966;
+    text-align: initial;
+    margin-top: 5px;
+}
+.register-form select {
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    color: #cc9966;
+    font-size: 1.0rem;
+}
+.register-form button[type="submit"] {
+    width: 50%;
+    height: 30px;
+    margin-top: 40px;
+    background-color: #cc9966;
+    color: #fff;
+    font-size: 1.0rem;
+}
+.gender-select {
+    margin-bottom: 5px;
+}
+.gender-select input {
+	display: none;
+}
+.gender-select label{
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 50%;
+    height: 30px;
+	margin: 0;
+	padding: 10px;
+	background: #bdc3c7;
+	color: #869198;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+    margin-bottom: 5px;
+}
+.gender-select label:first-of-type{
+	border-radius: 0;
+}
+.gender-select label:last-of-type{
+	border-radius: 0;
+}
+.gender-select input[type="radio"]:checked + .switch-man {
+	background-color: #91bdf2;
+	color: #fff;
+}
+.gender-select input[type="radio"]:checked + .switch-woman {
+	background-color: #e98585;
+	color: #fff;
+}
+.prefecture {
+    display: block;
+    color: #cc9966;
+    width: 100%;
+    height: 30px;
+    background: url(../img/select.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border: solid 1px #cc9966;
+    cursor: pointer;
+    border-radius: 0;
+}
+.login {
+    margin: 10px 0;
+    text-align: center;
+}
+.login a{
+    color: #cc9966;
+}
+.birthday {
+    display: flex;
+}
+.birthday select {
+    height: 1.3rem;
+    border: 1px #000 solid;
+    font-size: 1rem;
+    color: #cc9966;
+    height: 25px;
+    background: url(../img/select.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-color: white;
+    border: solid 1px #cc9966;
+    cursor: pointer;
+    border-radius: 0;
+    /*width: 18vw;*/
+    margin: 0 0 3px 3px;
+    flex: 1;
+}
+.birthday select:first-of-type {
+    flex: 2;
+}

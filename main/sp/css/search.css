@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/*heightは全部指定しましょう！*/
+.wrap-contents {
+    width: 95%;
+    margin: 0 auto;
+}
+.wrap-search-form {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #cc9966;
+    margin-top: 5px;
+    border: 0;
+}
+.inner-search-form {
+    display: flex;
+    font-size: 0;
+    align-items: center;
+    
+}
+.inner-search-form select, .inner-search-form ｐ {
+    height:30px;
+    margin: 0;
+    border-radius: 0; 
+    border: 0;
+}
+.inner-search-form select {
+    text-align: center;
+    margin-left: 8px;
+    color: #cc9966;
+    font-size: 1rem;
+    flex: 1;
+    background: #fff;
+    background-image: url(../img/triangle.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+    background-origin: content-box;
+}
+.inner-search-form p {
+    margin-left: 6px;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    width: 1rem;
+}
+.inner-search-form input[type="submit"] {
+    margin-left: auto;
+    border: 0;
+}
+#button-image {
+    width: 45px;
+    height: 45px;
+}
+.wrap-select-sort {
+    margin-top: 5px;
+    background-color: #cc9966;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.wrap-select-sort form {
+    width: 100%;
+}
+.inner-select-sort {
+    flex: 1;
+}
+.inner-select-sort select {
+    height:30px;
+    text-align: center;
+    margin-left: 8px;
+    color: #cc9966;
+    font-size: 1rem;
+    flex: 1;
+    border-radius: 0;
+    background: #fff;
+    background-image: url(../img/triangle.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+    background-origin: content-box;
+    width: 95%;
+    
+}
+/*.wrap-current-position {
+    width: 95%;
+    height:45px;
+    margin: 0 auto;
+    background: #cc9966;
+    margin-top: 5px;
+    border: 0;
+    text-align: center;
+    line-height: 45px;
+}
+
+.wrap-current-position p {
+    height: 30px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    display: inline-block;
+}
+.wrap-current-position p::before {
+    content: '';
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-image: url(../img/current_position.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+    margin-right: 1px;
+}
+.wrap-current-position a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.wrap-current-position img {
+    max-height: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}*/
+
+.title-search-result {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: dotted 2px #e2b889;
+    color: #cc9966;
+    font-size: 1.2rem;
+}
+.title-result-card p {
+    font-size: 1.0rem;
+    color: indianred;
+    padding: 6px 6px 6px 3px;
+    border-bottom: #e2b889 dashed 1px;
+    margin-bottom: 2px;
+}
+.wrap-result-card {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 8px #e2b889 solid;
+    background-color: #fff5da;
+
+}
+.inner-result-card {
+    padding: 5px 0;
+    display: flex;
+}
+.result-card-content {
+    padding: 3px;
+}
+
+.result-card-content p {
+    font-size: 0.8rem;
+    color: #ee9966;
+}
+#thumbnail {
+    width: calc(100%/7*3);
+    height: 21vw;
+    background-repeat:  no-repeat;
+    background-position:  center;
+    background-size: cover;
+}
+.result-card-content {
+    flex: 1;
+}
+.wrap-result-card:last-child {
+    margin-bottom: 5%;
+}
+.wrap-result-card a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.wrap-page-number ul {
+    width: 70%;
+    margin: 0 auto 5vw auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap-page-number ul li {
+    width: 8vw;
+    height: 8vw;
+    line-height: 8vw;
+    text-align: center;
+}
+.wrap-page-number ul li a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+#num-selected {
+    background-color: #8d5f31;
+}
+#num {
+    background-color: #e2b889;
+}

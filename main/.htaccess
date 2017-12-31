@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} /sp/
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|Android|Windows\ Phone)
+RewriteRule ^sp/(.*)$ $1 [R,L]
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !/sp/
+RewriteCond %{REQUEST_URI} !/img/
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+#RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|Android|Windows\ Phone)
+RewriteRule ^(.*)$ main/sp/$1 [R,L]
+RewriteBase /
+

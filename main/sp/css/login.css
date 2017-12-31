@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+    font-size: 1.0rem;
+    font-family: HiraKakuProN-W3,"ヒラギノ角ゴ ProN W3",Helvetica,sans-serif;
+    color: #3a3a3a;
+    width: 100%;
+    height: 120%;
+    min-width: 320px;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    background-color: #fff5da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    width: 100%
+}
+.name {
+    font-family: 'Capriola', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: #cc9966;
+}
+.login-form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.login-form input[type="text"],.login-form input[type="password"], .login-form button[type="submit"], .login-form p {
+    width: 100%;
+    margin: 0 auto;
+}
+.login-form input[type="text"],.login-form input[type="password"], .login-form button[type="submit"] {
+    border: 1px solid #cc9966;
+    padding: 0;
+    height: 30px;
+}
+.login-form input[type="text"],.login-form input[type="password"] {
+    background-color: #fff;
+    border-radius: 0;
+    font-size: 15px;
+}
+.login-form p {
+    color: #cc9966;
+    text-align: initial;
+    margin-top: 5px;
+}
+.login-form button[type="submit"] {
+    width: 50%;
+    margin-top: 20px;
+    background-color: #cc9966;
+    color: #fff;
+    font-size: 1.0rem;
+}
+.register {
+    margin-top: 60px;
+    text-align: center;
+}
+.register a{
+    color: #cc9966;
+}

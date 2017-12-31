@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.room_register{
+    background: #85E990;
+}
+.room_list{
+    background: #FFC86A;
+}
+.flexbox{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    border-bottom: dashed 2px #8D5F31;
+}
+#main_center_title{
+    border: none;
+}
+.flexbox img{
+    width: 35px;
+    margin-left: auto;
+    cursor: pointer;
+}

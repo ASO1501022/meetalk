@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/*heightは全部指定しましょう！*/
+.wrap-search-form {
+    width: 95%;
+    height: 50px;
+    margin: 0 auto;
+    background: #cc9966;
+    margin-top: 5px;
+    border: 0;
+
+}
+.inner-search-form {
+    display: flex;
+    align-items: center;
+    font-size: 0;
+    line-height: 50px;
+}
+.select-form select {
+    height: 30px;
+    text-align: left;
+    border-radius: 0; 
+    margin-left: 8px;
+    margin-right: 0;
+    color: #cc9966;
+    font-size: 1rem;
+    background: #fff;
+    background-image: url(../img/triangle.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right;
+    background-origin: content-box;
+    color: #e2b889;
+    border-right: 2px dashed #e2b889;
+    width: 65px;
+}
+.inner-search-form input[type="search"] {
+    margin: 0;
+    background-color: #fff;
+    border-radius: 0;
+    height: 30px;
+    flex: 1;
+}
+.inner-search-form button[type="submit"] {
+    padding: 5px;
+    width: 40px;
+}
+
+/*TOPMENUのCSS*/
+.top-menu {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+.top-menu ul {
+    list-style: none;
+}
+
+.big-menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:3px;
+}
+#big-menu-popularity {
+    width: 49.5%;/*heightはJSで書き換える*/
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+#big-menu-popularity a {
+    width: 100%;
+    height: 100%;
+}
+/*:beforeにぼかし効果を設定する*/
+.bg-image:before{
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+#popurality-title {
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    color: #996655;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.general{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+#room-img {
+    content: '';
+    height: 70%;
+    margin-top: 10%;
+    background: url(../img/room.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#big-menu-content {
+    width: 100%;
+    height: 100%;
+}
+#big-menu-content p {
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+}
+.small-menu1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top:3px;
+}
+
+#small-menu1-content p {
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+}
+.small-menu2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top:3px;
+}
+
+#small-menu2-content p {
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+}
+.bkg-brown{
+    background-color: #cc9966;
+    color: #fff;
+    position: relative;
+}
+.bkg-yellow {
+    background-color: #fff5a9;
+    color: #cc9966;
+}
+.bkg-gray {
+    background-color: #dddddd;
+    color: #fff;
+}
+.content-img {
+    max-height: 60%;
+    position: absolute;
+    top: -8%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.map {
+    background-color: #cc9966;
+    color: #fff;
+}
+li a {
+    display: block;
+    width:100%;
+    height:100%;
+}
+#room-link {
+    position: absolute;
+    width:100%;
+    height:100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.link{
+    position: absolute;
+    width:100%;
+    height:100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#current-position-img {
+    height: 65%;
+    margin-top: 10%;
+    background: url(../img/current_position.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#map-img{
+    height: 65%;
+    margin-top: 10%;
+    background: url(../img/map.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#mypage-img{
+    height: 65%;
+    margin-top: 10%;
+    background: url(../img/mypage.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#friend-img {
+    height: 65%;
+    margin-top: 10%;
+    background: url(../img/friend.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#favorite-img {
+    height: 65%;
+    margin-top: 10%;
+    background: url(../img/favorite.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#history-img {
+    height: 65%;
+    margin-top: 10%;
+    background: url(../img/history.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+@media only screen
+and (orientation : portrait) {
+    #big-menu-content {
+        width: 47vw;
+        height:47vw;
+        background-color: #cc9966;
+        color: #fff;
+        position: relative;
+        z-index: 10;
+    }
+    #small-menu1-content{
+        width: 31vw;
+        height: 31vw;
+        position: relative;
+    }
+    #small-menu2-content{
+        width: 31vw;
+        height: 31vw;
+        position: relative;
+        margin-bottom: 5%;
+    }
+
+}
+@media only screen
+and (orientation : landscape) {
+    #big-menu-content {
+        width: 47vw;
+        height:47vw;
+        background-color: #cc9966;
+        color: #fff;
+        position: relative;
+    }
+    #small-menu1-content{
+        width: 31vw;
+        height: 31vw;
+        position: relative;
+    }
+    #small-menu2-content{
+        width: 31vw;
+        height: 31vw;
+        position: relative;
+        margin-bottom: 5%;
+    }
+}

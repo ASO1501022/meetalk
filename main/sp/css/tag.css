@@ -1,0 +1,87 @@
+#tag_wrap{
+    margin: 0 auto;
+    margin-top: 3px;
+    text-align: center;
+    width: 95%;
+    background: #e2b889;
+}
+.tag_inner{
+    font-size: 0px;
+    display: inline-block;
+    padding: 3px;
+}
+
+.hot .tag_name p{
+    background: #D75858;
+}
+.hot .tag_num p{
+    background: #E98585;
+}
+.normal .tag_name p{
+    background: #76ACED;
+}
+.normal .tag_num p{
+    background: #9CC8FF;
+}
+.general .tag_name p{
+    background: #ffc86a;
+}
+.general .tag_num p{
+    background: #ffd894;
+}
+.delete .tag_name p{
+    background: #ffc86a;
+}
+
+.tag_name{
+    display: inline-block;
+    position: relative;
+}
+.tag_name a {
+    text-decoration: none;
+}
+.tag_name p{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 14px;
+    color: white;
+    padding: 7px 5px 7px 6px;
+    max-width: 100%;
+}
+.tag_name p::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/tag.png);
+    background-size: contain;
+    margin-right: 3px;
+}
+.tag_num{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.tag_num p{
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+    padding: 7px 5px 7px 5px;
+}
+.tag_delete {
+    width: 22px;
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    cursor: pointer;
+}
+.delete .tag_name p {
+    padding-right: 15px;
+}
+#wrap-tag-edit {
+    margin-top: 5px;
+    font-size: 0;
+}
+#wrap-tag-edit .tag_inner {
+    font-size: 0;
+    margin-right: 5px;
+}

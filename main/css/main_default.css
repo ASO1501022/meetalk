@@ -1,0 +1,34 @@
+@charset "UTF-8";
+#center_horizontal{
+    border-bottom: solid 2px #8D5F31;
+    margin: 0;
+    padding: 0;
+}
+#main_inner{
+    justify-content: center;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    text-align: center;
+}
+.ad{
+    margin-top: 20px;
+}
+.ad_left{
+    margin-right: 20px;
+}
+.ad_right{
+    margin-left: 20px;
+}
+.main_center{
+    width: 800px;
+    padding-bottom: 30px;
+}
+#main_center_title{
+    border-bottom: dashed 2px #8D5F31;
+    padding: 10px;
+    font-size: 20px;
+    color: #8D5F31;
+    font-weight: bold;
+    text-align: initial;
+}

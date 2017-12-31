@@ -1,0 +1,218 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    font-size: 1.0rem;
+    font-family: HiraKakuProN-W3,"ヒラギノ角ゴ ProN W3",Helvetica,sans-serif;
+    color: #3a3a3a;
+    width: 100%;
+    min-width: 320px;
+    -webkit-text-size-adjust: none;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style:none;
+    height: 100%;
+}
+
+/*header*/
+#header {
+    background: #cc9966;
+    border-bottom: 1px solid #ddd;
+    height: 49px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+}
+#header h2 {
+    color: white;
+    line-height: 49px;
+    display: inline-block;
+}
+.button {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url('../img/menu_button_back.png');
+    background-position: center;
+}
+.menu-button-left {
+    left: 0px;
+    width: 49px;
+    height: 49px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    /*background-image: url('../img/logout.png');*/
+    background-image: none;
+    background-color: #e98585;
+    background-repeat: no-repeat;
+    background-position: 50% 5px;
+    background-size: 15px;
+}
+.menu-button-left button {
+    width: 100%;
+    height: 100%;
+    color: white;
+    line-height: 49px;
+    font-size: 1rem;
+}
+.menu-button-right {
+    right: 0px;
+    border-left: 1px solid #ddd;
+    display: inline-block;
+}
+
+/*作業ちゅううううううううううううううううううううううううううううううううううう*/
+.wrap-search-box {
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    font-size: 0;
+}
+.select-box select {
+    height: 30px;
+    text-align: left;
+    border-radius: 0; 
+    margin-left: 8px;
+    margin-right: 0;
+    color: #cc9966;
+    font-size: 1rem;
+    background: #fff;
+    background-image: url(../img/triangle.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right;
+    background-origin: content-box;
+    color: #e2b889;
+    border-right: 2px dashed #e2b889;
+    width: 65px;
+}
+.search-box input[type="search"] {
+    margin: 0;
+    background-color: #fff;
+    border-radius: 0;
+    height: 30px;
+    flex: 1;
+}
+.search-box button[type="submit"] {
+    padding: 5px;
+    width: 40px;
+}
+
+/*ここまで*/
+
+/*slidemenu*/
+.slidemenu {
+    background-color: #e2b889;
+}
+.slidemenu li {
+    list-style: none;
+    /*border-top: 1px solid #4D4D4D;*/
+    border-bottom: 1px solid #fff;
+    font-size:14px;
+    line-height: 1.8;
+    text-align: right;
+}
+.slidemenu li a {
+    padding:12px 0 12px 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 7px;
+}
+.slidemenu li:first-child {
+    border-top: none;
+}
+.slidemenu li:last-child {
+    border-bottom: none;
+}
+.slidemenu .slidemenu-header {
+    padding-right: 7px;
+    height: 49px;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 3px rgba(34,25,25,.4);
+    -moz-box-shadow: 0 1px 3px rgba(34,25,25,.4);
+    -webkit-box-shadow: 0 1px 3px rgba(34,25,25,.4);
+    background-color: #e2b889;
+    text-align: right;
+    line-height: 49px;
+}
+.slidemenu .slidemenu-header div {
+    text-decoration: none;
+    color: #fff;
+}
+.menu-item-last {
+    background-color: #cc9966;
+}
+
+/*main*/
+#main {
+    background: #fff;
+    width: 100%;
+    height: 120%;
+}
+#contents {
+    padding: 20px;
+}
+#contents h1 {
+    font-size: 18px;
+}
+#contents p {
+    margin-top: 15px;
+}
+
+/*plugin*/
+#main {
+  z-index: 1;
+}
+.slidemenu {
+  top: 0;
+  width: 240px;
+  position: fixed;
+  visibility: hidden;
+  z-index: -1;
+}
+.slidemenu .slidemenu-header {
+  position: relative;
+}
+.slidemenu .slidemenu-body {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.slidemenu .slidemenu-body .slidemenu-content {
+  position: relative;
+}
+.slidemenu-left {
+    left: 0;
+}
+.slidemenu-right {
+    right: 0;
+}

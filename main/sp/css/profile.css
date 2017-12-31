@@ -1,0 +1,94 @@
+.wrap-contents {
+    width: 95%;
+    margin: 0 auto;
+}
+.title-profile {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-bottom: dotted 2px #e2b889;
+    color: #cc9966;
+    font-size: 1.2rem;
+}
+.wrap-user-info {
+    margin-top: 5px;
+    display: flex;
+    background-color: #fff5da;
+    align-items: center;
+    position: relative;
+}
+.user-image {
+    margin: 5px;
+}
+.user-image img {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+.user-name-id p {
+    color: #cc9966;
+    font-size: 1.0rem;
+}
+.user-name-id p:last-child {
+    color: #ebb988;
+    font-size: 0.8rem;
+}
+.friend-button {
+    padding: 3px 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.friend-green {
+    background-color: #85e990;
+}
+.friend-gray {
+    background-color: #ddd;
+}
+.friend-red {
+    background-color: #e98585;
+}
+.info-element:first-child {
+    margin-top: 5px;
+}
+.info-element:nth-child(odd) {
+    border-left: 8px #cc9966 solid;
+    border-bottom: 1px #cc9966 solid;
+}
+.info-element:nth-child(even) {
+    border-left: 8px #fff5a9 solid;
+    border-bottom: 1px #fff5a9 solid;
+}
+.info-element p {
+    padding: 3px;
+    color: #cc9966;
+}
+.info-element p:first-child {
+    color: #916a43
+}
+.info-element p:last-child {
+    padding-left: 1rem;
+}
+#user-tag {
+    color: #fff;
+    padding-left: 5px;
+}
+.wrap-edit-button {
+    width: 100%;
+    height: 40px;
+    background-color: #cc9966;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 5px;
+}
+.wrap-edit-button button {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}

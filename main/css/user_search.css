@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.main_center .search_box_wrap{
+    margin: 10px 0;
+}
+.main_center .search_box_wrap input{
+    background: white;
+}
+.member_wrap:first-of-type{
+    border-top: solid 1px #D7D7D7;
+}
+.detail{
+    background: #FFC86A;
+}
+.button{
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-size: initial;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin:  0 5px;
+    margin-right: 15px;
+}
+.button:hover{
+    opacity: 0.7;
+}

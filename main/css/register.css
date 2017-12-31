@@ -1,0 +1,144 @@
+@charset "UTF-8";
+body,html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#contents{
+    width: 100%;
+    height: 100%;
+	display: -webkit-flex;
+	display: flex;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #FFC86A;  
+}
+.left_wrap{
+    width: 400px;
+    height: 100%;
+    border-right: solid 1px #D7D7D7; 
+    z-index: 100;
+    background: white;
+}
+.input_box{
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    border: solid 1px #D7D7D7; 
+}
+#left_inner{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 300px;
+}
+.head{
+    margin-top: 20px;
+}
+.input_box input{
+    width: 100%;
+    height: 100%;
+}
+.img_wrap{
+    -webkit-flex: 1;
+	flex: 1;
+    overflow: hidden;
+    position: relative;
+    height:100%;
+    display: flex;
+    display: -webkit-flex;
+        justify-content: center;/* 3 */
+    align-items: center; 
+}
+#login{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    border: solid 1px #D7D7D7;
+    border-radius: 15px;
+    padding: 5px 0;
+    font-size: 17px;
+    cursor: pointer;
+}
+#login:hover{
+    background: #efefef;
+}
+#link_wrap{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+#link_wrap p{
+    display: block;
+}
+#radio_box{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+input[type="radio"]{
+    display: inline-block;
+    margin-left: 20px;
+}
+#prefecture ,#year ,#month ,#day{
+    display: inline-block;
+    height: 30px;
+	background: url(../img/select.png);
+    background-position: right;
+    background-repeat: no-repeat;
+	background-size: 30px;
+    border: solid 1px #D7D7D7;
+    cursor: pointer;
+    padding-left: 0px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #prefecture ,#year ,#month ,#day{
+        padding-left: 4px;
+    }
+}
+#prefecture{
+    width: 100px;
+}
+#birthday_wrap{
+    margin-top: 10px;
+}
+#year{
+    width: 70px;
+}
+#month ,#day{
+    width: 60px;
+}
+#send_mail{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    border: solid 1px #7c7373;
+    border-radius: 15px;
+    padding: 5px 0;
+    font-size: 17px;
+    cursor: pointer;
+    color: #389fe8;
+}
+#link_wrap a{
+    color: #389fe8;
+}
+#link_wrap a:active{
+    color: #389fe8;
+}
+#send_mail:hover{
+    background: #efefef;
+}
+#radio_box label{
+    margin-left: 5px;
+}
+.left{
+    display: inline-block;
+}

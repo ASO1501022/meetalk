@@ -1,0 +1,39 @@
+<div class="slidemenu slidemenu-right">
+    <div class="slidemenu-header">  
+      <div>
+        メニュー
+      </div>
+    </div>
+    <div class="slidemenu-body">
+      <ul class="slidemenu-content">
+        <li>
+          <div class="wrap-search-box">
+            <form action="search.php" method="get">
+              <div class="search-box">
+                <div class="select-box">
+                  <select name="search_genre"><option value="restaurant">店舗</option><option value="room">部屋</option><option value="tag">タグ</option></select>
+                </div>
+                <input type="hidden" name="page" value="0">
+                <input type="search" name="search_word">
+                <button type="submit" name="search" id="button-image"><img border="0" src="./img/search.png" width="25px" height="25px" alt="イラスト1"></button>
+                </div>
+            </form>
+          </div>
+        </li>
+        <li><a class="menu-item" href="./index.php">TOP</a></li>
+        <li><a class="menu-item" href="./user_room.php">あなたの部屋</a></li>
+        <li><a class="menu-item" href="./search.php?search_genre=room&prefecture=<?=$user->prefecture?>&search_word=">地域から検索</a></li>
+        <li><a class="menu-item" href="./profile.php">マイページ</a></li>
+        <li><a class="menu-item" href="./friend.php">フレンド</a></li>
+        <li><a class="menu-item" href="./favorite.php">お気に入り</a></li>
+        <li><a class="menu-item" href="./history.php">履歴</a></li>
+        <li><a class="menu-item" href="./help.php">ヘルプ</a></li>
+        <li><a class="menu-item" href="./contact.php">お問い合わせ</a></li>
+        <li><a class="menu-item-last" href="./logout.php">ログアウト</a></li>
+      </ul>
+    </div>
+  </div>
+
+  
+
+  

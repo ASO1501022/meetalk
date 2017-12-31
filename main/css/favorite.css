@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.list_content p{
+    color: #AAA;
+}
+.list_wrap{
+    position: relative;
+}
+.list_wrap .fav_delete{
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 30px;
+    z-index: 100;
+    cursor: pointer;
+}

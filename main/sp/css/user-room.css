@@ -1,0 +1,181 @@
+.wrap-contents {
+    width: 95%;
+    margin: 0 auto;
+}
+.title {
+    margin-top: 5px;
+    border-bottom: dotted 2px #e2b889;
+
+}
+.title p {
+    color: #cc9966;
+    font-size: 1.4rem;
+}
+.tab{
+    /*overflow:hidden;*/
+    display: flex;
+    margin-top: 10px;
+}
+.tab li{
+    flex: 1;
+    background:#fff;
+    color: #cc9966;
+    padding:5px;
+    text-align: center;
+    list-style: none;
+    border: 1px solid #cc9966;
+    position: relative;
+}
+.tab .select{
+    background:#cc9966;
+    color: #fff;
+}
+.content li{
+    list-style: none;
+}
+.notification {
+    width: 30px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.notification-num {
+    position: absolute;
+    top: -2px;
+    right: 6px;
+    color: white;
+    font-size: 0.7rem;
+}
+.hide {
+    display:none;
+}
+
+.title-result-card p {
+    font-size: 1.0rem;
+    color: indianred;
+    padding: 6px 6px 6px 3px;
+    border-bottom: #e2b889 dashed 1px;
+    margin-bottom: 2px;
+}
+.wrap-result-card {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 8px #e2b889 solid;
+    text-decoration: none;
+    background-color: #fff5da;
+}
+.wrap-result-card a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.inner-result-card {
+    padding: 5px 0;
+    display: flex;
+}
+.result-card-content {
+    padding: 3px;
+}
+
+.result-card-content p {
+    font-size: 0.8rem;
+    color: #ee9966;
+}
+#thumbnail {
+    width: calc(100%/7*3);
+    height: 21vw;
+    background: url(../img/test.jpg) no-repeat center;
+    background-size: cover;
+}
+.result-card-content {
+    flex: 1;
+}
+.result-card-content {
+    line-height: 1.2rem;
+}
+.wrap-result-card:last-child {
+    margin-bottom: 5%;
+}
+/*----iPad Pro----*/
+/* Portrait */
+@media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+    .notification {
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+    .notification-num {
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+/* Landscape */
+@media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+    .notification {
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+    .notification-num {
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+/*----iPad----*/
+/* Portrait */
+
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait) {
+    .notification {
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+    .notification-num {
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+/* Landscape */
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape) {
+    .notification {
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+    .notification-num {
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}

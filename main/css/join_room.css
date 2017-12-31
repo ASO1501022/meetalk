@@ -1,0 +1,18 @@
+@charset "UTF-8";
+#join_room_tab_wrap{
+    text-align: initial;
+    margin-top: 10px;
+    font-size: 0;
+    border-bottom: solid 1px #CC9966;
+}
+#join_room_tab_wrap .tab{
+    padding: 0;
+}
+#join_room_tab_wrap .tab{
+    text-align: initial;
+    padding: 4px 20px;
+    color: #CC9966;
+}
+#join_room_tab_wrap .tab_on{
+    color: white;
+}

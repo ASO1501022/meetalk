@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.invite_btn{
+    background: #FFC86A;
+}
+.no{
+    background: #D7D7D7;
+}
+.member_btn_wrap .no_btn{
+    width: initial;
+    background: #D7D7D7;
+    padding: 0 10px;
+}
+.no_btn:hover{
+    opacity: initial;
+    cursor: auto;
+}
