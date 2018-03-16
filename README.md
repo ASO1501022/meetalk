@@ -1,4 +1,8 @@
 # meetalk
+## PC画面
+![PC画面](https://drive.google.com/uc?export=view&id=16aBMn0XV27hGNmSDnXvY6wiOmOjQt592)
+## スマホ画面
+![スマホ画面](https://drive.google.com/uc?export=view&id=1RDdDinxmaAca49xpeelv3yF9omucUKng)
 ## サイト概要
 共通の目的を持った人が食を通して交流ができるサイト
 
