@@ -1,18 +1,16 @@
 # meetalk
+共通の目的を持った人が食を通して交流ができるサイト
 ## PC画面
 ![PC画面](https://drive.google.com/uc?export=view&id=16aBMn0XV27hGNmSDnXvY6wiOmOjQt592)
 ## スマホ画面
 ![スマホ画面](https://drive.google.com/uc?export=view&id=1RDdDinxmaAca49xpeelv3yF9omucUKng)
-## サイト概要
-共通の目的を持った人が食を通して交流ができるサイト
 ### URL
 [meetalk](http://meetalk.php.xdomain.jp/main)  
 #### テスト用アカウント
 ログインID : aso1234  
 パスワード : aso1234
 ## プロジェクトの目的
-共通の目的を持った人が集まるきっかけづくりをすること
-
+共通の目的を持った人が集まるきっかけづくりの場を提供する
 ## 使用方法
 「目的」を持った人が店の情報や、店の場所、名前等から開催する店で部屋を立てる。  
 次にその「目的」に興味を持った人がその部屋の情報（開催日や場所など）を確認し、気に入ればその部屋へ入る。  
